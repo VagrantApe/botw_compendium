@@ -2,7 +2,7 @@
   <div class="home">
     <img class="logo" src="../assets/botw_logo.png" alt="breathe of the wild logo" >
     <p>
-      Breathe Of The Wild Compenduim
+      COMPENDIUM
     </p>
   </div>
 </template>
