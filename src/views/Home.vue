@@ -1,18 +1,30 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img class="logo" src="../assets/botw_logo.png" alt="breathe of the wild logo" >
+    <p>
+      Breathe Of The Wild Compenduim
+    </p>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
 }
 </script>
+<style scoped>
+.home {
+  background: url("../assets/botw_scene.jpg") center center no-repeat;
+  box-shadow: 0 0 40px 40px var(--tunicBlue) inset;
+  border-radius: 50%;
+  margin: auto;
+  width: 60%;
+  height: 600px;
+  margin-top: 100px;
+}
+.logo{
+  margin-top: 20vh;
+  width: 200px;
+}
+</style>
+
